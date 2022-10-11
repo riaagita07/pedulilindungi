@@ -19,6 +19,8 @@ const LoginScreen = ({ navigation }) => {
     navigation.navigate("Dashboard");
   };
 
+  // edit me
+
   return (
     <View style={{ flex: 1, width, width }}>
       <StatusBar backgroundColor={"white"} barStyle="dark-content" />

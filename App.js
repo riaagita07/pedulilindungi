@@ -6,6 +6,8 @@ import Router from "./src/router/Router";
 export default function App() {
   const [currentScreen, setCurrentScreen] = React.useState("Splash");
 
+  // testing untuk commit
+
   React.useEffect(() => {
     setTimeout(() => {
       setCurrentScreen("Login");
